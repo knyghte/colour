@@ -98,5 +98,5 @@ func Gray(text string) string {
 
 // White will colourize this text white.
 func White(text string) string {
-	return colourWhite + text + colourWhite
+	return colourWhite + text + colourReset
 }
